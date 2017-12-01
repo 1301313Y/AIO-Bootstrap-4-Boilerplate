@@ -8,9 +8,24 @@ _This is a early release, and will be updated over time. I will add more informa
 * Run: `npm install`
 
 ## Usage
+#### Commands
 * `gulp clean`   - Deletes tmp & dist directories.
 * `gulp serve`   - Starts Browsersync and watches for changes.
 * `gulp dist`    - Optimizes sources, and outputs distribution build.
+
+#### Using Gulp Google Web-Fonts
+* Locate the fonts directory in your src - `src/assets/fonts/`
+* Open the `fonts.list` files inside.
+* Add/Remove fonts as needed.
+* To add fonts, use the following format:
+```
+# Tab-delimeted format
+Oswald	400,700	latin,latin-ext
+
+# Google format
+Roboto:500,500italic&subset=greek
+```
+* On build, the fonts will be downloaded, and injected into your html.
 
 
 #### More Details To Come!
