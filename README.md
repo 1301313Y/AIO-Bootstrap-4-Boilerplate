@@ -23,7 +23,7 @@ _This is a early release, and will be updated over time. I will add more informa
 ## Usage
 #### Commands
 * `gulp clean`   - Deletes tmp & dist directories.
-* `gulp serve`   - Starts Browsersync and watches for changes.
+* `gulp watch`   - Starts Browsersync and watches for changes.
 * `gulp dist`    - Optimizes sources, and outputs distribution build.
 
 #### Using Gulp Google Web-Fonts
